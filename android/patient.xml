@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <type value="searchset"/>
+  <total value="175"/>
+  <link>
+    <relation value="self"/>
+    <url value="https://fhir-open-api-dstu2.smarthealthit.org/Patient?name=&amp;_count=20"/>
+  </link>
+  <link>
+    <relation value="next"/>
+    <url value="https://fhir-open-api-dstu2.smarthealthit.org/Patient?name=&amp;_count=20&amp;_skip=20"/>
+  </link>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1032702"/>
+    <resource>
+      <Patient>
+        <id value="1032702"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2016-03-09T15:29:48.648+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Amy Shaw</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1032702"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Shaw"/>
+          <given value="Amy"/>
+          <given value="V."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-782-6765"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="amy.shaw@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="2007-03-20"/>
+        <address>
+          <use value="home"/>
+          <line value="49 Meadow St"/>
+          <city value="Mounds"/>
+          <state value="OK"/>
+          <postalCode value="74047"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1081332"/>
+    <resource>
+      <Patient>
+        <id value="1081332"/>
+        <meta>
+          <versionId value="120"/>
+          <lastUpdated value="2016-03-09T15:29:51.184+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Joseph Ross</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1081332"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Ross"/>
+          <given value="Joseph"/>
+          <given value="I."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-960-9294"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="joseph.ross@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="2003-10-02"/>
+        <address>
+          <use value="home"/>
+          <line value="19 Church StApt 29"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74108"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1098667"/>
+    <resource>
+      <Patient>
+        <id value="1098667"/>
+        <meta>
+          <versionId value="355"/>
+          <lastUpdated value="2016-03-09T15:29:53.376+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Robert Hill</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1098667"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Hill"/>
+          <given value="Robert"/>
+          <given value="P."/>
+        </name>
+        <telecom>
+          <system value="email"/>
+          <value value="robert.hill@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1953-10-27"/>
+        <address>
+          <use value="home"/>
+          <line value="42 Park St"/>
+          <city value="Bixby"/>
+          <state value="OK"/>
+          <postalCode value="74008"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1134281"/>
+    <resource>
+      <Patient>
+        <id value="1134281"/>
+        <meta>
+          <versionId value="597"/>
+          <lastUpdated value="2016-03-09T15:29:55.698+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Patrick Taylor</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1134281"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Taylor"/>
+          <given value="Patrick"/>
+          <given value="G."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-539-3986"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="patrick.taylor@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="2004-10-15"/>
+        <address>
+          <use value="home"/>
+          <line value="24 Pine RdApt 3"/>
+          <city value="Bixby"/>
+          <state value="OK"/>
+          <postalCode value="74008"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1137192"/>
+    <resource>
+      <Patient>
+        <id value="1137192"/>
+        <meta>
+          <versionId value="1616"/>
+          <lastUpdated value="2016-03-09T15:30:00.710+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Joshua Williams</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1137192"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Williams"/>
+          <given value="Joshua"/>
+          <given value="P."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-232-5751"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="joshua.williams@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1954-08-21"/>
+        <address>
+          <use value="home"/>
+          <line value="96 East Rd"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74108"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1157764"/>
+    <resource>
+      <Patient>
+        <id value="1157764"/>
+        <meta>
+          <versionId value="2652"/>
+          <lastUpdated value="2016-03-09T15:30:04.617+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Carol Hughes</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1157764"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Hughes"/>
+          <given value="Carol"/>
+          <given value="U."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-971-5389"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="carol.hughes@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1949-11-04"/>
+        <address>
+          <use value="home"/>
+          <line value="36 South St"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74108"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1186747"/>
+    <resource>
+      <Patient>
+        <id value="1186747"/>
+        <meta>
+          <versionId value="3442"/>
+          <lastUpdated value="2016-03-09T15:30:07.404+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Daniel Johnson</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1186747"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Johnson"/>
+          <given value="Daniel"/>
+          <given value="A."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-504-6466"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="daniel.johnson@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1995-02-22"/>
+        <address>
+          <use value="home"/>
+          <line value="2 Main Ave"/>
+          <city value="Broken Arrow"/>
+          <state value="OK"/>
+          <postalCode value="74014"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1213208"/>
+    <resource>
+      <Patient>
+        <id value="1213208"/>
+        <meta>
+          <versionId value="5711"/>
+          <lastUpdated value="2016-03-09T15:30:13.773+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Brian Gracia</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1213208"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Gracia"/>
+          <given value="Brian"/>
+          <given value="Q."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-504-7344"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="brian.gracia@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1965-06-22"/>
+        <address>
+          <use value="home"/>
+          <line value="25 Church St"/>
+          <city value="Bixby"/>
+          <state value="OK"/>
+          <postalCode value="74008"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1272431"/>
+    <resource>
+      <Patient>
+        <id value="1272431"/>
+        <meta>
+          <versionId value="8584"/>
+          <lastUpdated value="2016-03-09T15:30:22.621+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Stephan Graham</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1272431"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Graham"/>
+          <given value="Stephan"/>
+          <given value="P."/>
+        </name>
+        <telecom>
+          <system value="email"/>
+          <value value="stephan.graham@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1945-05-01"/>
+        <address>
+          <use value="home"/>
+          <line value="27 Park RdApt 17"/>
+          <city value="Mounds"/>
+          <state value="OK"/>
+          <postalCode value="74047"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1288992"/>
+    <resource>
+      <Patient>
+        <id value="1288992"/>
+        <meta>
+          <versionId value="12289"/>
+          <lastUpdated value="2016-03-09T15:30:34.554+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Daniel Adams</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1288992"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Adams"/>
+          <given value="Daniel"/>
+          <given value="X."/>
+        </name>
+        <telecom>
+          <system value="email"/>
+          <value value="daniel.adams@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1925-12-23"/>
+        <address>
+          <use value="home"/>
+          <line value="1 Hill AveApt 14"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74117"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1291938"/>
+    <resource>
+      <Patient>
+        <id value="1291938"/>
+        <meta>
+          <versionId value="16871"/>
+          <lastUpdated value="2016-03-09T15:30:44.467+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Carol Young</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1291938"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Young"/>
+          <given value="Carol"/>
+          <given value="T."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-534-4473"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-383-7276"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="carol.young@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1932-02-26"/>
+        <address>
+          <use value="home"/>
+          <line value="57 Ridge Ave"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74116"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1482713"/>
+    <resource>
+      <Patient>
+        <id value="1482713"/>
+        <meta>
+          <versionId value="19908"/>
+          <lastUpdated value="2016-03-09T15:30:51.053+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Susan Clark</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1482713"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Clark"/>
+          <given value="Susan"/>
+          <given value="A."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-576-9327"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="susan.clark@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="2000-12-27"/>
+        <address>
+          <use value="home"/>
+          <line value="52 Highland St"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74116"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1520204"/>
+    <resource>
+      <Patient>
+        <id value="1520204"/>
+        <meta>
+          <versionId value="23266"/>
+          <lastUpdated value="2016-03-09T15:30:58.301+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Helen James</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1520204"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="James"/>
+          <given value="Helen"/>
+          <given value="N."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-289-9370"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="helen.james@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1939-09-14"/>
+        <address>
+          <use value="home"/>
+          <line value="90 Elm Rd"/>
+          <city value="Sand Springs"/>
+          <state value="OK"/>
+          <postalCode value="74063"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1540505"/>
+    <resource>
+      <Patient>
+        <id value="1540505"/>
+        <meta>
+          <versionId value="29456"/>
+          <lastUpdated value="2016-03-09T15:31:07.932+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Amy Clark</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1540505"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Clark"/>
+          <given value="Amy"/>
+          <given value="E."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-661-3584"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="amy.clark@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1964-01-21"/>
+        <address>
+          <use value="home"/>
+          <line value="77 North St"/>
+          <city value="Bixby"/>
+          <state value="OK"/>
+          <postalCode value="74008"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1551992"/>
+    <resource>
+      <Patient>
+        <id value="1551992"/>
+        <meta>
+          <versionId value="32445"/>
+          <lastUpdated value="2016-03-09T15:31:12.818+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Lisa Coleman</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1551992"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Coleman"/>
+          <given value="Lisa"/>
+          <given value="P."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-258-4431"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="lisa.coleman@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1948-04-14"/>
+        <address>
+          <use value="home"/>
+          <line value="1 Main StApt 16"/>
+          <city value="Bixby"/>
+          <state value="OK"/>
+          <postalCode value="74008"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1557780"/>
+    <resource>
+      <Patient>
+        <id value="1557780"/>
+        <meta>
+          <versionId value="37386"/>
+          <lastUpdated value="2016-03-09T15:31:20.453+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>William Thomas</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1557780"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Thomas"/>
+          <given value="William"/>
+          <given value="F."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-556-4849"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="william.thomas@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1933-06-16"/>
+        <address>
+          <use value="home"/>
+          <line value="35 Meadow Rd"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74117"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1577780"/>
+    <resource>
+      <Patient>
+        <id value="1577780"/>
+        <meta>
+          <versionId value="44487"/>
+          <lastUpdated value="2016-03-09T15:31:34.011+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Carol Allen</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1577780"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Allen"/>
+          <given value="Carol"/>
+          <given value="G."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-613-1713"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="carol.allen@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1963-12-26"/>
+        <address>
+          <use value="home"/>
+          <line value="67 Meadow StApt 25"/>
+          <city value="Sapulpa"/>
+          <state value="OK"/>
+          <postalCode value="74066"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1614502"/>
+    <resource>
+      <Patient>
+        <id value="1614502"/>
+        <meta>
+          <versionId value="49704"/>
+          <lastUpdated value="2016-03-09T15:31:42.984+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Susan Williams</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1614502"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Williams"/>
+          <given value="Susan"/>
+          <given value="N."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-651-2242"/>
+          <use value="home"/>
+        </telecom>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-471-8810"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="susan.williams@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="2006-11-22"/>
+        <address>
+          <use value="home"/>
+          <line value="27 South Ave"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74126"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1627321"/>
+    <resource>
+      <Patient>
+        <id value="1627321"/>
+        <meta>
+          <versionId value="49968"/>
+          <lastUpdated value="2016-03-09T15:31:43.777+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Frank Taylor</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1627321"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Taylor"/>
+          <given value="Frank"/>
+          <given value="V."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-802-7225"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="frank.taylor@example.com"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1953-09-05"/>
+        <address>
+          <use value="home"/>
+          <line value="1 Hill StApt 9"/>
+          <city value="Tulsa"/>
+          <state value="OK"/>
+          <postalCode value="74108"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir-open-api-dstu2.smarthealthit.org/Patient/1642068"/>
+    <resource>
+      <Patient>
+        <id value="1642068"/>
+        <meta>
+          <versionId value="53188"/>
+          <lastUpdated value="2016-03-09T15:31:48.773+00:00"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+        
+            
+            <p>Betty Davis</p>
+      
+          
+          </div>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="http://hl7.org/fhir/v2/0203"/>
+              <code value="MR"/>
+              <display value="Medical record number"/>
+            </coding>
+            <text value="Medical record number"/>
+          </type>
+          <system value="http://hospital.smarthealthit.org"/>
+          <value value="1642068"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <use value="official"/>
+          <family value="Davis"/>
+          <given value="Betty"/>
+          <given value="N."/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="800-430-7442"/>
+          <use value="mobile"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="betty.davis@example.com"/>
+        </telecom>
+        <gender value="female"/>
+        <birthDate value="1940-12-14"/>
+        <address>
+          <use value="home"/>
+          <line value="58 River Ave"/>
+          <city value="Sapulpa"/>
+          <state value="OK"/>
+          <postalCode value="74066"/>
+          <country value="USA"/>
+        </address>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+</Bundle>
